@@ -24,10 +24,11 @@ _start:
 
 	add esp, 4 * 2
 
-
 	push userInput
 	push 123
 	call printString
+
+	add esp, 4 * 2
 
 	
 	mov ebx, 0
